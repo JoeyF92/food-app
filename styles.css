@@ -1,0 +1,61 @@
+.navbar-collapse {
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+#main-div {
+  display: flex;
+  height: 60vh;
+}
+
+#left-main {
+  background-color: rgb(226, 223, 223);
+  width: 50%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#dietary {
+  width: 22rem;
+  height: 2rem;
+  display: block;
+  margin: auto;
+}
+
+#postcode {
+  width: 22rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+#right-main {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#chinese {
+  height: 80%;
+}
+
+.food {
+  object-fit: contain;
+  width: 2rem;
+}
+
+.food-imgs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.food-item {
+  width: 6rem;
+}
+
+.little-div {
+  width: 6rem;
+}
